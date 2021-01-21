@@ -1,0 +1,18 @@
+.container form{
+    margin-top: 3rem;
+}
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: white;
+    border:turquoise;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+}
+form input:focus{
+    background-color: transparent;
+    box-shadow: non !important;
+}
+.weather-size{
+    margin: 20px;
+}
